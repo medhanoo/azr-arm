@@ -80,7 +80,7 @@
   - name: Creating webapp bot
     azure_rm_deployment:
         state: present
-        resource_group_name: '{{ var_resource_group_name }}'
+        resource_group_name: '{{ var_resource_group_name }}DJJ'
         parameters:
           administratorLogin:
               value: '{{ var_administratorLogin }}' 

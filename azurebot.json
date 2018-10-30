@@ -193,12 +193,12 @@
         "resources": [
           {
             "name": "[concat(parameters('serverName'), parameters('databaseName'))]",
-            "type": "Microsoft.Sql/servers/databases",
+            "type": "databases",
             "location": "[parameters('location')]",
             "tags": {
               "displayName": "Database"
             },
-            "apiVersion": "2014-04-01",
+            "apiVersion": "2017-10-01-preview",
             "dependsOn": [
               "[parameters('serverName')]"
             ],
