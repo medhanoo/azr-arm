@@ -62,7 +62,7 @@
           westus: "WEUS"
           eastus: "EUS"   
   tasks:
- - name: Creating SQL server
+  - name: Creating SQL server
     azure_rm_deployment:
         state: present
         resource_group_name: 'dj'
