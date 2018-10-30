@@ -78,7 +78,7 @@
           tier: 
             value: 'standard'
           skuName: 
-            value: 'F0'
+            value: 's0'
           location: 
             value: 'West Europe'
           maxSizeBytes: 
