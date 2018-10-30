@@ -75,7 +75,7 @@
           skuName: 'F0'
           location: 'West Europe'
           maxSizeBytes: 
-            value: 268435456000
+            value: '{{ var_maxSizeBytes }}'
           serverName: 'cccccc'
           sampleName: ''
           zoneRedundant: false
