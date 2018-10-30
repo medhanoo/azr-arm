@@ -80,7 +80,8 @@
           sampleName: ''
           zoneRedundant: false
           licenseType: ''
-          enableATP: 'false'
+          enableATP:
+            value: false
           allowAzureIps: True
         template_link: '{{ templateLink1 }}'
         
