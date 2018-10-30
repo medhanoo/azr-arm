@@ -89,7 +89,7 @@
           #collation:
           #    value: '{{ var_collation }}'
           databaseName:
-              value: '{{ var_databaseName | lower }}'
+              value: '{{ var_databaseName | lower }}aa'
           tier:
               value: '{{ var_tier }}'
           skuName:
