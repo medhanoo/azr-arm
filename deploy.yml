@@ -65,7 +65,7 @@
   - name: Creating SQL server
     azure_rm_deployment:
         state: present
-        resource_group_name: 'dj'
+        resource_group_name: 'dj-01'
         parameters:
           administratorLogin: 'mcse123'
           administratorLoginPassword: 'MC-se-00'
