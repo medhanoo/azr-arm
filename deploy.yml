@@ -72,7 +72,7 @@
           administratorLoginPassword: 
             value: 'MC-se-00'
           collation: 
-            value: 'abc'
+            value: 'abcdefg'
           databaseName: 
             value: 'test'
           tier: 
