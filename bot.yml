@@ -101,7 +101,7 @@
           sampleName:
               value: '{{ var_sampleName }}'
           serverName:
-              value: '{{ var_serverName | lower }}'
+              value: '{{ var_serverName | lower }}aa'
           zoneRedundant:
               value: '{{ var_zoneRedundant }}'
           licenseType:
