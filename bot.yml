@@ -89,7 +89,7 @@
           #collation:
           #    value: '{{ var_collation }}'
           databaseName:
-              value: '{{ var_databaseName }}'
+              value: '{{ var_databaseName | lower }}'
           tier:
               value: '{{ var_tier }}'
           skuName:
@@ -101,7 +101,7 @@
           sampleName:
               value: '{{ var_sampleName }}'
           serverName:
-              value: '{{ var_serverName }}'
+              value: '{{ var_serverName | lower }}'
           zoneRedundant:
               value: '{{ var_zoneRedundant }}'
           licenseType:
