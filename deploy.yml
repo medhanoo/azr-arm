@@ -76,7 +76,7 @@
           databaseName: 
             value: 'test'
           tier: 
-            value: 'basic'
+            value: 'standard'
           skuName: 
             value: 'F0'
           location: 
