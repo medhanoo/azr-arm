@@ -74,7 +74,8 @@
           tier: 'basic'
           skuName: 'F0'
           location: 'West Europe'
-          maxSizeBytes: 268435456000
+          maxSizeBytes: 
+            value: 268435456000
           serverName: 'cccccc'
           sampleName: ''
           zoneRedundant: false
