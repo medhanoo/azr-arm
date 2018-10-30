@@ -39,7 +39,7 @@
     var_databaseName: "Eydbsdfsf"
     var_tier: "standard"
     var_skuName: "S0"
-    var_maxSizeBytes: 268435456000s
+    var_maxSizeBytes: 268435456000
     var_sampleName: ""
     var_serverName: "eydbedf"
     var_zoneRedundant: false
