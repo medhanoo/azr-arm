@@ -67,19 +67,19 @@
         state: present
         resource_group_name: 'dj'
         parameters:
-					administratorLogin: 'mcse123'
-					administratorLoginPassword: 'MC-se-00'
-					collation: 'abc'
-					databaseName: 'test'
-					tier: 'basic'
-					skuName: 'F0'
-					location: 'West Europe'
-					maxSizeBytes: 100000000
-					serverName: 'cccccc'
-					sampleName: ''
-					zoneRedundant: false
-					licenseType: ''
-					enableATP: false
-					allowAzureIps: True
+				  administratorLogin: 'mcse123'
+				  administratorLoginPassword: 'MC-se-00'
+				  collation: 'abc'
+				  databaseName: 'test'
+				  tier: 'basic'
+				  skuName: 'F0'
+				  location: 'West Europe'
+				  maxSizeBytes: 100000000
+				  serverName: 'cccccc'
+				  sampleName: ''
+				  zoneRedundant: false
+				  licenseType: ''
+				  enableATP: false
+				  allowAzureIps: True
         template_link: '{{ templateLink1 }}'
         
